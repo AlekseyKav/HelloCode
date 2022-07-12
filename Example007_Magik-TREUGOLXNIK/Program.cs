@@ -3,12 +3,12 @@
 //Console.SetCursorPosition(15, 10);
 //Console.WriteLine("+");
 
-int xa = 40,
+int xa = 10,
     ya = 1,
     xb = 1,
-    yb = 20,
-    xc = 81,
-    yc = 20;
+    yb = 10,
+    xc = 21,
+    yc = 10;
 
 Console.SetCursorPosition(xa, ya);
 Console.WriteLine("+");
@@ -24,7 +24,7 @@ int x = xa,
 
 int count = 0;
 
-while (count <= 10000)
+while (count <= 500)
 {
     int what = new Random().Next(0, 3);
     if (what == 0)
